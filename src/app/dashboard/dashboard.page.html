@@ -1,0 +1,157 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-icon style="font-size: 40px;" name="menu-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title style="font-size: 14px;">Current location</ion-title>
+          <ion-title style="font-size: 16px;"><ion-icon name="location-outline"></ion-icon>New York City</ion-title>
+        </ion-col>
+        <ion-col>
+          <ion-icon style="margin-top: 4px;
+          margin-left: auto;
+          font-size: 30px;"
+
+          name="notifications-circle-outline">
+          </ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar placeholder="Custom Placeholder" style="margin-top: 10px; border-radius: 20px;"></ion-searchbar>
+  <ion-card style="border-radius: 16px;" color="dark">
+    <ion-card-header>
+      <ion-title color="warning">Track your parcel</ion-title>
+      <ion-title style="font-size: 15px;">Enter your parcel tracking number</ion-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-item fill="outline" >
+              <ion-label position="floating">Your Tracking number</ion-label>
+              <ion-input placeholder="Enter text"></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col><ion-button style="height: 60px;" color="danger" routerLink="/tracking">Track</ion-button></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-title>Last tracked parcel</ion-title>
+      </ion-col>
+      <ion-col>
+        <ion-title>See all</ion-title>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-card style="border-radius: 16px;" color="medium">
+    <ion-card-header>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card-title style="margin-top: 6px; color: black; font-weight: 700; font-size: 15px;">#8901245671245</ion-card-title>
+            <ion-card-subtitle style="margin-top: 6px;">Amazon inc</ion-card-subtitle>
+          </ion-col>
+          <ion-col style="margin-left: 40px;">
+            <ion-button color="dark">Shipped</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-header>
+    <div style="width: 100%; border-top: 1px solid #d4d4d4; margin: 8px 0;"></div>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-title style="color: black;font-weight: 700; font-size: 15px;">New York City</ion-title>
+            <ion-title style="color: black;font-size: 15px;">United States</ion-title>
+          </ion-col>
+          <ion-col style="margin-top: 10px; font-size: 20px;">
+            <ion-icon color="warning" name="arrow-forward-outline"></ion-icon>
+          </ion-col>
+          <ion-col>
+            <ion-title style="color: black;font-weight: 700; font-size: 15px;">Manhantan City</ion-title>
+            <ion-title style="color: black;font-size: 15px;">United State</ion-title>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-avatar>
+              <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+            </ion-avatar>
+          </ion-col>
+          <ion-col>
+            <ion-title style="color: black;font-weight: 700;font-size: 15px;">Hlalele Maroba</ion-title>
+            <ion-title style="font-size: 15px;">Hlalele Maroba</ion-title>
+          </ion-col>
+          <ion-col style="margin-top: 10px; font-size: 30px;">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card style="border-radius: 16px;" color="medium">
+    <ion-card-header>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card-title style="margin-top: 6px; color: black; font-weight: 700; font-size: 15px;">#8901245671245</ion-card-title>
+            <ion-card-subtitle style="margin-top: 6px;">Amazon inc</ion-card-subtitle>
+          </ion-col>
+          <ion-col style="margin-left: 40px;">
+            <ion-button color="dark">Shipped</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-header>
+    <div style="width: 100%; border-top: 1px solid #d4d4d4; margin: 8px 0;"></div>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-title style="color: black;font-weight: 700; font-size: 15px;">New York City</ion-title>
+            <ion-title style="color: black;font-size: 15px;">United States</ion-title>
+          </ion-col>
+          <ion-col style="margin-top: 10px; font-size: 20px;">
+            <ion-icon color="warning" name="arrow-forward-outline"></ion-icon>
+          </ion-col>
+          <ion-col>
+            <ion-title style="color: black;font-weight: 700; font-size: 15px;">Manhantan City</ion-title>
+            <ion-title style="color: black;font-size: 15px;">United State</ion-title>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-avatar>
+              <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+            </ion-avatar>
+          </ion-col>
+          <ion-col>
+            <ion-title style="color: black;font-weight: 700;font-size: 15px;">Hlalele Maroba</ion-title>
+            <ion-title style="font-size: 15px;">Hlalele Maroba</ion-title>
+          </ion-col>
+          <ion-col style="margin-top: 10px; font-size: 30px;">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
